@@ -1,12 +1,15 @@
 #include<simplecpp>
 
 main_program{ 
-    int n,i,k;
+    int n,k;
     cin>>n;
-       for(i=0; i<ni++){
-           for(k=0 ; k<(i+1); k++ ){
+    int i= 0;
+    
+       repeat(n){
+          repeat(i){
                cout<<"*"<<" ";
            }
+           i++;
            cout<<endl;
 
        }
